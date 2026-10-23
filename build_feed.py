@@ -92,7 +92,7 @@ def main():
 
     rss = ET.Element('rss', {'version': '2.0'})
     ch = ET.SubElement(rss, 'channel')
-    sub(ch, 'title', 'Mine fire danske podcasts')
+    sub(ch, 'title', 'Podcastsamlingen')
     sub(ch, 'link', base)
     sub(ch, 'description', 'CEPOS Bag om Nyhederne, Borgerlig Tabloid, Liberal Alliance og Supertrends – samlet efter oprindelig udgivelsesdato.')
     sub(ch, 'language', 'da-DK')
